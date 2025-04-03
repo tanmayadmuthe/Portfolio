@@ -65,7 +65,7 @@ export function Navigation() {
             onClick={() => scrollToSection('home')} 
             className="text-2xl font-bold"
           >
-            Portfolio
+            Tanmay
           </button>
 
           <div className="hidden md:flex items-center space-x-8">

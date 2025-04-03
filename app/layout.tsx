@@ -8,8 +8,11 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Modern Portfolio',
+  title: 'Tanmay Admuthe | Portfolio',
   description: 'A stunning portfolio showcasing my work and journey',
+  icons: {
+    icon: './favicon.ico',
+  },
 };
 
 export default function RootLayout({

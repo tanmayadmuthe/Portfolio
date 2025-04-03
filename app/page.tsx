@@ -53,31 +53,38 @@ const skills = [
 // Timeline data for About section
 const timeline = [
   {
-    year: "2024",
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovators Inc.",
-    description: "Leading development of enterprise-scale applications",
-    icon: Briefcase
-  },
-  {
-    year: "2022",
-    title: "Frontend Developer",
-    company: "Creative Solutions Ltd.",
-    description: "Built responsive web applications using modern frameworks",
+    year: "May 2024 - July 2024",
+    title: "Research Intern",
+    company: "Vellore Institute of Technology",
+    description: "Developed a machine learning model for detection of diseases in Tea Leaves",
     icon: Code2
   },
   {
-    year: "2021",
-    title: "UI/UX Designer",
-    company: "Design Studio",
-    description: "Created user-centered designs for various clients",
-    icon: Palette
+    year: "October 2023 - August 2024",
+    title: "PRISM Research Intern",
+    company: "Samsung R and D Institute",
+    description: "Worked on Secure virtual OS and high memory capabilities in Android Open Source Project(AOSP)",
+    icon: Code2
   },
   {
-    year: "2020",
+    year: "2021 - 2025",
+    title: "Bachelors of Technology in Electronics and Computer Engineering",
+    company: "Vellore Institute of Technology, Chennai",
+    description: "Current CGPA: 8.57",
+    icon: GraduationCap
+  },
+  {
+    year: "2019 - 2021",
+    title: "Junior College",
+    company: "Sanjay Ghodawat Juinor College, Atigre",
+    description: "Completed 12th with a percentage of 93.67",
+    icon: GraduationCap
+  },
+  {
+    year: "2014-2019",
     title: "High School",
     company: "Jawahar Navodaya Vidyalaya, Palus",
-    description: "Graduated with honors in Computer Science",
+    description: "Finished 10th with a percentage of 93.6",
     icon: GraduationCap
   }
 ];
@@ -85,30 +92,48 @@ const timeline = [
 // Projects data
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1600&auto=format&fit=crop",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    category: "Full Stack"
+    title: "Avian Response on Climate Change",
+    description: "Analyzed four decades of bird sightings and climate data to predict species distribution in the Scottish Highlands, Utilized machine learning to assess the impact of climate change on bird species distribution.",
+    image: "https://images.unsplash.com/photo-1486365227551-f3f90034a57c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["R", "Machine Learning"],
+    github: "https://github.com/tanmayadmuthe/Avian-Responses-to-Climate-Change",
+    demo: "https://medium.com/@tanmayadmuthe32/birds-on-the-brink-how-climate-change-is-affecting-our-feathered-friends-2c7005fd14ef",
+    category: "AI/ML"
   },
   {
-    title: "AI Writing Assistant",
-    description: "An AI-powered writing tool that helps improve content quality",
-    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1600&auto=format&fit=crop",
-    tags: ["React", "OpenAI", "Node.js", "MongoDB"],
-    github: "https://github.com",
+    title: "Video Calling App using NextJs",
+    description: "A full fledged video call app that can be integrated in existing projects with ease. Can start an instant meeting, schedule a meeting, record a meeting, send invitations to people.",
+    image: "https://images.unsplash.com/photo-1586985564150-11ee04838034?q=80&w=2029&auto=format&fit=crop",
+    tags: ["NextJs", "TailWind CSS", "TypeScript","Clerk"],
+    github: "https://github.com/tanmayadmuthe/yoom-videocall",
+    demo: "https://yoom-videocall-iota.vercel.app/",
+    category: "Frontend"
+  },
+  {
+    title: "Gestational Diabetes Prediction",
+    description: "Predicted gestational diabetes using machine learning models with maternal health data. Achieved an accuracy of 97% in the final model",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
+    tags: ["Python", "Machine Learning", "TensorFlow", "scikit-learn"],
+    github: "https://github.com/tanmayadmuthe/Gestational-Diabetes-Prediction",
     demo: "https://demo.com",
     category: "AI/ML"
   },
   {
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for social media management",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
-    tags: ["React", "D3.js", "Firebase", "Material-UI"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    title: "Virtubell",
+    description: "A QR-based virtual doorbell enabling secure, real-time video calls between visitors and homeowners, with SMS notifications and strong authentication.",
+    image: "https://images.unsplash.com/photo-1600147131759-880e94a6185f?q=80&w=1936&auto=format&fit=crop",
+    tags: ["JavaScript", "Pug", "CSS", "SQL", "NodeJs"],
+    github: "https://github.com/tanmayadmuthe/virtubell",
+    demo: "#",
+    category: "Full Stack"
+  },
+  {
+    title: "Valorant Themed Site",
+    description: "Valorant themed fan-site showcasing game features, characters, and maps. Built with Next.js and Tailwind CSS for a responsive design.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6BLERDc-f5azLo0xiZAH_YSjukcORI3vPGRerlqj8Px0m3l-fgXu6iApO2wCkdvsjevA",
+    tags: ["JavaScript", "TailWind CSS", "NextJs"],
+    github: "https://github.com/tanmayadmuthe/valorant-themed-site",
+    demo: "https://valorant-themed-site.vercel.app/",
     category: "Frontend"
   }
 ];
@@ -116,28 +141,36 @@ const projects = [
 // Blog posts data
 const dummyPosts = [
   {
-    title: "Building Scalable Web Applications with Next.js",
-    description: "Learn how to create performant and scalable web applications using Next.js and React",
-    publishDate: "2024-03-15",
-    readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1600&auto=format&fit=crop",
-    link: "https://medium.com"
-  },
-  {
-    title: "The Future of Web Development: What's Next?",
-    description: "Exploring upcoming trends and technologies in web development",
-    publishDate: "2024-03-10",
+    title: "OpenAI Releases GPT-01 “Strawberry”: The First Model With Advanced Reasoning",
+    description: "OpenAI's New GPT-01 Model: A Game Changer in AI Reasoning",
+    publishDate: "Sep 16, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop",
-    link: "https://medium.com"
+    image: "https://miro.medium.com/v2/resize:fit:600/format:webp/1*0f-CzFzQ_sMNn15aXLjpVQ.jpeg",
+    link: "https://medium.com/@tanmayadmuthe32/openai-releases-gpt-01-strawberry-the-first-model-with-advanced-reasoning-2d3376ea99d1"
   },
   {
-    title: "Mastering TypeScript: Tips and Tricks",
-    description: "Advanced TypeScript techniques to improve your code quality",
-    publishDate: "2024-03-05",
-    readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600&auto=format&fit=crop",
-    link: "https://medium.com"
+    title: "How I mastered GitHub: A Developer’s Essential Guide to Collaboration and Version Control",
+    description: "Tips and Tricks for getting the most out of GitHub",
+    publishDate: "Sep 16, 2024",
+    readTime: "6 min read",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*QisVGribmiLTxOQfihSq8w.png",
+    link: "https://medium.com/@tanmayadmuthe32/how-i-mastered-github-a-developers-essential-guide-to-collaboration-and-version-control-8f5a9ded2329"
+  },
+  {
+    title: "I found 12 best VScode Extensions for 2024",
+    description: "Top VSCode Extensions to Boost Your Productivity in 2025",
+    publishDate: "Sep 14, 2024",
+    readTime: "6 min read",
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*hPWatI99PSz984kAr-qkJg.png",
+    link: "https://medium.com/@tanmayadmuthe32/unlock-your-coding-potential-top-vscode-extensions-to-turbocharge-your-workflow-11bca01ecc8f"
+  },
+  {
+    title: "How AI Coding Tools Like GitHub Copilot Are Making Developers' Lives Easier",
+    description: "GitHub Copilot: Revolutionizing Coding with AI Assistance",
+    publishDate: "Sep 14, 2024",
+    readTime: "6 min read",
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*nxUt0dTiLMN9bRBq0onCkg.jpeg",
+    link: "https://medium.com/@tanmayadmuthe32/the-rise-of-ai-powered-coding-assistants-how-tools-like-github-copilot-are-shaping-the-future-of-fcdde2f547e3"
   }
 ];
 
@@ -146,13 +179,13 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com",
+    url: "https://github.com/tanmayadmuthe",
     color: "hover:text-[#333]"
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/tanmay-admuthe/",
     color: "hover:text-[#0077B5]"
   },
   {
@@ -164,7 +197,7 @@ const socialLinks = [
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:your.email@example.com",
+    url: "mailto:tanmayadmuthe@gmail.com",
     color: "hover:text-primary"
   }
 ];
@@ -675,7 +708,7 @@ export default function Home() {
               <div>
                 <h2 className="text-2xl font-semibold mb-4">Location</h2>
                 <p className="text-muted-foreground">
-                  San Francisco Bay Area, California
+                  Sangli, Maharashtra, India
                 </p>
               </div>
             </motion.div>
